@@ -5,78 +5,78 @@
 using namespace std;
 using namespace std::chrono;
 
-using Matrix = vector<vector<double>>;
+using Matrix_gsk = vector<vector<double>>;
 
 // Allocate an n x n matrix initialized with zeros
-Matrix allocateMatrix_cpp(int n) {
-    return Matrix(n, vector<double>(n, 0.0));
+Matrix_gsk allocateMatrix_gsk(int n_gsk) {
+    return Matrix_gsk(n_gsk, vector<double>(n_gsk, 0.0));
 }
 
 // Initialize matrix with random integers in [0,9]
-void initializeMatrix_cpp(Matrix& mat) {
-    random_device rd;
-    mt19937 gen(rd());
-    uniform_int_distribution<> dis(0, 9);
+void initializeMatrix_gsk(Matrix_gsk& mat_gsk) {
+    random_device rd_gsk;
+    mt19937 gen_gsk(rd_gsk());
+    uniform_int_distribution<> dis_gsk(0, 9);
 
-    int n = mat.size();
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            mat[i][j] = dis(gen);
+    int n_gsk = mat_gsk.size();
+    for (int i_gsk = 0; i_gsk < n_gsk; i_gsk++)
+        for (int j_gsk = 0; j_gsk < n_gsk; j_gsk++)
+            mat_gsk[i_gsk][j_gsk] = dis_gsk(gen_gsk);
 }
 
 // Row-major order matrix multiplication
-void multiplyRowMajor_cpp(const Matrix& A, const Matrix& B, Matrix& C) {
-    int n = A.size();
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            double sum = 0.0;
-            for (int k = 0; k < n; k++) {
-                sum += A[i][k] * B[k][j];
+void multiplyRowMajor_gsk(const Matrix_gsk& A_gsk, const Matrix_gsk& B_gsk, Matrix_gsk& C_gsk) {
+    int n_gsk = A_gsk.size();
+    for (int i_gsk = 0; i_gsk < n_gsk; i_gsk++) {
+        for (int j_gsk = 0; j_gsk < n_gsk; j_gsk++) {
+            double sum_gsk = 0.0;
+            for (int k_gsk = 0; k_gsk < n_gsk; k_gsk++) {
+                sum_gsk += A_gsk[i_gsk][k_gsk] * B_gsk[k_gsk][j_gsk];
             }
-            C[i][j] = sum;
+            C_gsk[i_gsk][j_gsk] = sum_gsk;
         }
     }
 }
 
 // Column-major order matrix multiplication
-void multiplyColMajor_cpp(const Matrix& A, const Matrix& B, Matrix& C) {
-    int n = A.size();
-    for (int j = 0; j < n; j++) {
-        for (int i = 0; i < n; i++) {
-            double sum = 0.0;
-            for (int k = 0; k < n; k++) {
-                sum += A[i][k] * B[k][j];
+void multiplyColMajor_gsk(const Matrix_gsk& A_gsk, const Matrix_gsk& B_gsk, Matrix_gsk& C_gsk) {
+    int n_gsk = A_gsk.size();
+    for (int j_gsk = 0; j_gsk < n_gsk; j_gsk++) {
+        for (int i_gsk = 0; i_gsk < n_gsk; i_gsk++) {
+            double sum_gsk = 0.0;
+            for (int k_gsk = 0; k_gsk < n_gsk; k_gsk++) {
+                sum_gsk += A_gsk[i_gsk][k_gsk] * B_gsk[k_gsk][j_gsk];
             }
-            C[i][j] = sum;
+            C_gsk[i_gsk][j_gsk] = sum_gsk;
         }
     }
 }
 
 int main() {
-    int n;
+    int n_gsk;
     cout << "Enter matrix size (n x n): ";
-    cin >> n;
+    cin >> n_gsk;
 
-    Matrix A = allocateMatrix_cpp(n);
-    Matrix B = allocateMatrix_cpp(n);
-    Matrix C = allocateMatrix_cpp(n);
+    Matrix_gsk A_gsk = allocateMatrix_gsk(n_gsk);
+    Matrix_gsk B_gsk = allocateMatrix_gsk(n_gsk);
+    Matrix_gsk C_gsk = allocateMatrix_gsk(n_gsk);
 
-    initializeMatrix_cpp(A);
-    initializeMatrix_cpp(B);
+    initializeMatrix_gsk(A_gsk);
+    initializeMatrix_gsk(B_gsk);
 
     // Row-major multiplication timing
-    auto start = high_resolution_clock::now();
-    multiplyRowMajor_cpp(A, B, C);
-    auto end = high_resolution_clock::now();
-    duration<double> rowTime = end - start;
-    cout << "Row-major multiplication time: " << rowTime.count() << " seconds\n";
+    auto start_gsk = high_resolution_clock::now();
+    multiplyRowMajor_gsk(A_gsk, B_gsk, C_gsk);
+    auto end_gsk = high_resolution_clock::now();
+    duration<double> rowTime_gsk = end_gsk - start_gsk;
+    cout << "Row-major multiplication time: " << rowTime_gsk.count() << " seconds\n";
 
     // Column-major multiplication timing
-    start = high_resolution_clock::now();
-    multiplyColMajor_cpp(A, B, C);
-    end = high_resolution_clock::now();
-    duration<double> colTime = end - start;
-    cout << "Column-major multiplication time: " << colTime.count() << " seconds\n";
+    start_gsk = high_resolution_clock::now();
+    multiplyColMajor_gsk(A_gsk, B_gsk, C_gsk);
+    end_gsk = high_resolution_clock::now();
+    duration<double> colTime_gsk = end_gsk - start_gsk;
+    cout << "Column-major multiplication time: " << colTime_gsk.count() << " seconds\n";
 
     return 0;
 }

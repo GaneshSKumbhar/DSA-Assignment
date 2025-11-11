@@ -1,0 +1,4 @@
+- [x] Rename function generateOddMagicSquare to generateOddMagicSquare_gsk and its parameters
+- [x] Rename function generateDoublyEvenMagicSquare to generateDoublyEvenMagicSquare_gsk and its parameters
+- [x] Rename function verifyMagicSquare to verifyMagicSquare_gsk and its parameters
+- [x] Rename variables in main function for MagicSquare

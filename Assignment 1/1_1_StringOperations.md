@@ -27,75 +27,72 @@ Implementing these operations without library functions helps in understanding t
 #include <iostream>
 using namespace std;
 
-// Calculate length of string (excluding '\0')
-int stringLength(const char str[]) {
-    int len = 0;
-    while (str[len] != '\0') {
-        len++;
+
+int stringLength_gsk(const char str_gsk[]) {
+    int len_gsk = 0;
+    while (str_gsk[len_gsk] != '\0') {
+        len_gsk++;
     }
-    return len;
+    return len_gsk;
 }
 
-// Copy source string into destination
-void stringCopy(char dest[], const char src[]) {
-    int i = 0;
-    while (src[i] != '\0') {
-        dest[i] = src[i];
-        i++;
+void stringCopy_gsk(char dest_gsk[], const char src_gsk[]) {
+    int i_gsk = 0;
+    while (src_gsk[i_gsk] != '\0') {
+        dest_gsk[i_gsk] = src_gsk[i_gsk];
+        i_gsk++;
     }
-    dest[i] = '\0';
+    dest_gsk[i_gsk] = '\0';
 }
 
-// Reverse string in place
-void stringReverse(char str[]) {
-    int len = stringLength(str);
-    int start = 0;
-    int end = len - 1;
-    while (start < end) {
-        char temp = str[start];
-        str[start] = str[end];
-        str[end] = temp;
-        start++;
-        end--;
+void stringReverse_gsk(char str_gsk[]) {
+    int len_gsk = stringLength_gsk(str_gsk);
+    int start_gsk = 0;
+    int end_gsk = len_gsk - 1;
+    while (start_gsk < end_gsk) {
+        char temp_gsk = str_gsk[start_gsk];
+        str_gsk[start_gsk] = str_gsk[end_gsk];
+        str_gsk[end_gsk] = temp_gsk;
+        start_gsk++;
+        end_gsk--;
     }
 }
 
-// Concatenate src string at the end of dest string
-void stringConcat(char dest[], const char src[]) {
-    int dest_len = stringLength(dest);
-    int i = 0;
-    while (src[i] != '\0') {
-        dest[dest_len + i] = src[i];
-        i++;
+void stringConcat_gsk(char dest_gsk[], const char src_gsk[]) {
+    int dest_len_gsk = stringLength_gsk(dest_gsk);
+    int i_gsk = 0;
+    while (src_gsk[i_gsk] != '\0') {
+        dest_gsk[dest_len_gsk + i_gsk] = src_gsk[i_gsk];
+        i_gsk++;
     }
-    dest[dest_len + i] = '\0';
+    dest_gsk[dest_len_gsk + i_gsk] = '\0';
 }
 
 int main() {
-    char str1[100], str2[100], dest[200];
+    char str1_gsk[100], str2_gsk[100], dest_gsk[200];
 
     cout << "Enter first string: ";
-    cin >> str1;
+    cin >> str1_gsk;
     cout << "Enter second string: ";
-    cin >> str2;
+    cin >> str2_gsk;
 
     // Length
-    int len1 = stringLength(str1);
-    int len2 = stringLength(str2);
-    cout << "Length of first string: " << len1 << endl;
-    cout << "Length of second string: " << len2 << endl;
+    int len1_gsk = stringLength_gsk(str1_gsk);
+    int len2_gsk = stringLength_gsk(str2_gsk);
+    cout << "Length of first string: " << len1_gsk << endl;
+    cout << "Length of second string: " << len2_gsk << endl;
 
     // Copy
-    stringCopy(dest, str1);
-    cout << "Copy of first string: " << dest << endl;
+    stringCopy_gsk(dest_gsk, str1_gsk);
+    cout << "Copy of first string: " << dest_gsk << endl;
 
     // Reverse
-    stringReverse(str1);
-    cout << "Reversed first string: " << str1 << endl;
+    stringReverse_gsk(str1_gsk);
+    cout << "Reversed first string: " << str1_gsk << endl;
 
     // Concatenate
-    stringConcat(str1, str2);
-    cout << "Concatenated string (first + second): " << str1 << endl;
+    stringConcat_gsk(str1_gsk, str2_gsk);
+    cout << "Concatenated string (first + second): " << str1_gsk << endl;
 
     return 0;
 }
@@ -118,3 +115,4 @@ Copy of first string: hello
 Reversed first string: olleh
 Concatenated string (first + second): ollehworld
 ```
+![alt text](image.png)
