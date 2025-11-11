@@ -238,3 +238,5 @@ Enter your choice: 4
 Enter start time to cancel (e.g., 10:00): 0
 No matching booked appointment found.
 ```
+
+![alt text](image.png)

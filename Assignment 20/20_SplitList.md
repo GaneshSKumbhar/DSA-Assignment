@@ -115,3 +115,4 @@ Enter number of elements in the list: 6
 Front List: 1 2 3 
 Back List: 4 5 6
 ```
+![alt text](image.png)

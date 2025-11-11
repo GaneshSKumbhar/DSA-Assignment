@@ -223,3 +223,4 @@ Booking for Seat 6 in Row 2 cancelled.
 Enter your choice: 4
 Exiting...
 ```
+![alt text](image.png)

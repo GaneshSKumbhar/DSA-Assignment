@@ -156,3 +156,4 @@ Polynomial 1: 8x^5 + 2x^3 + 7x^1
 Polynomial 2: 5x^4 + 3x^1
 Sum of Polynomials: 8x^5 + 5x^4 + 2x^3 + 10x^1
 ```
+![alt text](image.png)

@@ -233,3 +233,4 @@ Roll No: 73, Name: Neha,   Total Marks: 54
 Total swaps in Quick Sort: 5
 ```
 
+![alt text](image.png)

@@ -205,3 +205,4 @@ Conclusion:
 Merge Sort took less time.
 ```
 
+![alt text](image.png)

@@ -125,3 +125,4 @@ The Set in GLL format is:
 {p, q, {r, s, t, {}, {u, v}, w, x, {y, z}, a1, b1}}
 
 ```
+![alt text](image.png)

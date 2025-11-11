@@ -116,3 +116,4 @@ Enter the number of elements: 5
 Original List: 45 12 78 33 5 
 Sorted List: 5 12 33 45 78
 ```
+![alt text](image.png)

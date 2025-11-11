@@ -125,3 +125,5 @@ Row-major multiplication time: 0.842391 seconds
 Column-major multiplication time: 1.653728 seconds
 ```
 
+![alt text](image-1.png)
+

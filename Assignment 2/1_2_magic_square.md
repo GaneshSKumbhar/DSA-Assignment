@@ -183,3 +183,4 @@ Magic Square of order 4:
 Magic Sum: 34
 Verification: This IS a valid magic square!
 ```
+![alt text](image-1.png)

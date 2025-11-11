@@ -148,3 +148,4 @@ Sparse Matrix Simple Transpose (Row Col Value):
 0   2   4.00
 2   2   5.00
 ```
+![alt text](image.png)
