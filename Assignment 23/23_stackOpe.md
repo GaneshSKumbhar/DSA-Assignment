@@ -172,3 +172,7 @@ Stack 1 is empty.
 Enter your choice: 4
 Exiting...
 ```
+
+![alt text](image.png)
+
+![alt text](image-1.png)

@@ -201,3 +201,6 @@ Key deleted (if existed).
 Enter your choice: 4
 BST elements (Inorder): 30 70
 ```
+![alt text](image.png)
+
+![alt text](image-1.png)

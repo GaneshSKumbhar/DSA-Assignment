@@ -166,32 +166,6 @@ Front passenger: Riya
 Enter your choice: 4
 Total passengers left in queue: 1
 Exiting program...
-
-
---- Passenger Queue Menu ---
-1. Insert Passenger
-2. Display Front Passenger
-3. Remove Front Passenger
-4. Display Number of Passengers and Exit
-Enter your choice: 1
-Enter passenger name: Ganesh
-Passenger "Ganesh" added to the queue.
-
-Enter your choice: 1
-Enter passenger name: Riya
-Passenger "Riya" added to the queue.
-
-Enter your choice: 2
-Front passenger: Ganesh
-
-Enter your choice: 3
-Removing passenger: Ganesh
-
-Enter your choice: 2
-Front passenger: Riya
-
-Enter your choice: 4
-Total passengers left in queue: 1
-Exiting program...
-
 ```
+![alt text](image.png)
+![alt text](image-1.png)

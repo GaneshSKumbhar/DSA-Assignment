@@ -267,3 +267,7 @@ Enter your choice: 4
 Deleting expired product: Milk (P101)
 Expired products deleted successfully.
 ```
+
+![alt text](image.png)
+
+![alt text](image-1.png)

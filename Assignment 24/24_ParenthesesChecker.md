@@ -115,3 +115,5 @@ The expression is NOT BALANCED.
 Enter your choice: 2
 Exiting program...
 ```
+
+![alt text](image.png)

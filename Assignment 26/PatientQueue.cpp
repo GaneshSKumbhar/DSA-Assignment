@@ -90,7 +90,7 @@ int main() {
             case 4:
                 cout << "Exiting program...\n";
                 break;
-            default:4
+            default:
                 cout << "Invalid choice! Try again.\n";
         }
     } while (choice_gsk != 4);

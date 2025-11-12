@@ -173,3 +173,4 @@ Enter your choice: 2
 Enter Employee ID to search: 102
 Record Found -> ID: 102, Name: Rahul, Designation: Manager
 ```
+![alt text](image.png)

@@ -186,3 +186,6 @@ Deleted 10 from Queue 1
 Enter your choice: 4
 Exiting program...
 ```
+![alt text](image.png)
+
+![alt text](image-1.png)

@@ -199,7 +199,7 @@ Enter Product Name: Bread
 Enter Price: 30
 Enter Quantity: 50
 Enter Date Received (YYYY-MM-DD): 2025-10-25
-Enter Expiration Date (YYYY-MM-DD): 2025-11-01
+Enter Expiration Date (YYYY-MM-DD):2025-10-25
 Product inserted successfully.
 
 Enter your choice: 2
@@ -213,3 +213,6 @@ Enter your choice: 3
 --- Expired Products ---
 Expired -> Milk | Code: P101 | Expired on: 2025-10-25
 ```
+![alt text](image.png)
+
+![alt text](image-1.png)

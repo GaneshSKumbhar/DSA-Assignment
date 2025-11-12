@@ -199,3 +199,4 @@ Inorder Traversal: 80 70 60 50 40 30 20
 Enter your choice: 6
 Exiting...
 ```
+![alt text](image.png)

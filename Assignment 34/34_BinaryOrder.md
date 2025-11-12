@@ -221,3 +221,4 @@ Number of Leaf Nodes: 4
 Creating Mirror Image of the Tree...
 Inorder Traversal of Mirror Image: 7 3 6 1 5 2 4
 ```
+![alt text](image.png)
