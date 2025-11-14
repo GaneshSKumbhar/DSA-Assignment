@@ -162,45 +162,61 @@ int main() {
 ## **Sample Output**
 
 ```
----- Hash Table Menu ----
-1. Insert
-2. Search
-3. Display
+--- Faculty Database Menu ---
+1. Insert Faculty Record
+2. Search Faculty Record
+3. Display Hash Table
 4. Exit
 Enter your choice: 1
-Enter key to insert: 25
-Inserted 25 at index 5
+Enter Faculty ID: 25
+Enter Faculty Name: Rahul
+Enter Department: Computer
+Record inserted successfully!
 
+--- Faculty Database Menu ---
 Enter your choice: 1
-Enter key to insert: 35
-Inserted 35 at index 6
+Enter Faculty ID: 35
+Enter Faculty Name: Sneha
+Enter Department: ENTC
+Record inserted successfully!
 
+--- Faculty Database Menu ---
 Enter your choice: 1
-Enter key to insert: 45
-Inserted 45 at index 7
+Enter Faculty ID: 45
+Enter Faculty Name: Amit
+Enter Department: Mechanical
+Record inserted successfully!
 
+--- Faculty Database Menu ---
 Enter your choice: 3
 
-Hash Table Contents:
-0 -->
-1 -->
-2 -->
-3 -->
-4 -->
-5 --> 25
-6 --> 35
-7 --> 45
-8 -->
-9 -->
+Faculty Hash Table:
+[0] Empty
+[1] Empty
+[2] Empty
+[3] Empty
+[4] Empty
+[5] 25 | Rahul | Computer
+[6] 35 | Sneha | ENTC
+[7] 45 | Amit | Mechanical
+[8] Empty
+[9] Empty
 
+--- Faculty Database Menu ---
 Enter your choice: 2
-Enter key to search: 35
-Key 35 found at index 6
+Enter Faculty ID to search: 35
 
+Faculty Found:
+ID: 35
+Name: Sneha
+Department: ENTC
+
+--- Faculty Database Menu ---
 Enter your choice: 2
-Enter key to search: 50
-Key 50 not found!
+Enter Faculty ID to search: 50
+Faculty not found!
 
+--- Faculty Database Menu ---
 Enter your choice: 4
-Exiting program...
 ```
+![alt text](image.png)

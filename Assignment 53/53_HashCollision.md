@@ -181,3 +181,5 @@ Enter your choice: 4
 Enter your choice: 5
 Exiting...
 ```
+![alt text](image.png)
+![alt text](image-1.png)

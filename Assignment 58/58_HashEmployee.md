@@ -193,3 +193,4 @@ Employee Hash Table:
 [1] 101 | Riya | HR
 [2] Empty
 ```
+![alt text](image.png)

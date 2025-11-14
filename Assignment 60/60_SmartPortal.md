@@ -217,3 +217,4 @@ Placement Hash Table:
 [4] 101 | Riya | Infosys | Placed
 ```
 
+![alt text](image.png)

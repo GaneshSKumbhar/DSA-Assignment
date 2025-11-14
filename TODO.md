@@ -1,6 +1,0 @@
-- [x] Rename typedef Matrix to Matrix_gsk
-- [x] Rename function allocateMatrix_cpp to allocateMatrix_gsk and its parameters
-- [x] Rename function initializeMatrix_cpp to initializeMatrix_gsk and its parameters
-- [x] Rename function multiplyRowMajor_cpp to multiplyRowMajor_gsk and its parameters
-- [x] Rename function multiplyColMajor_cpp to multiplyColMajor_gsk and its parameters
-- [x] Rename variables in main function

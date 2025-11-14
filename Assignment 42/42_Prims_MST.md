@@ -141,3 +141,4 @@ Edges in the Minimum Spanning Tree (MST):
 0 - 3  (Weight: 6)
 Total Minimum Cost of MST: 16
 ```
+![alt text](image.png)

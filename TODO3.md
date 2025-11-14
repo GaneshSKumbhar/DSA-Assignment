@@ -1,5 +1,0 @@
-- [x] Rename function stringLength to stringLength_gsk and its parameters
-- [x] Rename function stringCopy to stringCopy_gsk and its parameters
-- [x] Rename function stringReverse to stringReverse_gsk and its parameters
-- [x] Rename function stringConcat to stringConcat_gsk and its parameters
-- [x] Rename variables in main function for StringOperation

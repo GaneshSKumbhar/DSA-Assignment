@@ -152,3 +152,4 @@ Edges in the Minimum Spanning Tree:
 
 Total Minimum Cost of Spanning Tree = 26
 ```
+![alt text](image.png)

@@ -208,3 +208,4 @@ Faculty Hash Table:
 [8] Empty
 [9] Empty
 ```
+![alt text](image.png)

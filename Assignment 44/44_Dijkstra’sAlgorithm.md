@@ -148,3 +148,5 @@ Enter destination vertex: 3
 Shortest distance from 0 to 3 is: 7
 Path: 0 -> 1 -> 2 -> 4 -> 3
 ```
+
+![alt text](image.png)

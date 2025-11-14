@@ -135,3 +135,4 @@ Hash Table after deletion:
 3 --> 28
 4 --> 4 --> 15
 ```
+![alt text](image.png)

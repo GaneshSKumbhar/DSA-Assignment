@@ -181,3 +181,4 @@ Index   ID    Name    Next
 Enter Faculty ID to search: 21
 Faculty found: Neha at index 3
 ```
+![alt text](image.png)

@@ -181,3 +181,4 @@ Enter starting vertex for BFS and DFS: 0
 BFS Traversal starting from vertex 0: 0 1 2 3 4
 DFS Traversal starting from vertex 0: 0 1 3 2 4
 ```
+![alt text](image.png)

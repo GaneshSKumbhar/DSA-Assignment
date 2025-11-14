@@ -168,14 +168,14 @@ Enter Roll No, Name, and Marks: 12 Ganesh 85
 Record inserted successfully!
 
 Enter choice: 1
-Enter Roll No, Name, and Marks: 22 Shankar 90
+Enter Roll No, Name, and Marks: 22 YAsh 90
 Record inserted successfully!
 
 Enter choice: 3
 
 Stored Records:
 Index 2 -> Roll: 12, Name: Ganesh, Marks: 85
-Index 3 -> Roll: 22, Name: Shankar, Marks: 90
+Index 3 -> Roll: 22, Name: Yash, Marks: 90
 
 Enter choice: 2
 Enter Roll No to search: 12
@@ -184,3 +184,5 @@ Roll: 12
 Name: Ganesh
 Marks: 85
 ```
+![alt text](image.png)
+![alt text](image-1.png)
